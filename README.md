@@ -39,7 +39,7 @@ By default, the phone expects a DHCP option (69 or 150) with the address of the 
 
 Go to *Settings -> 4. Administrative Settings -> 1. Network Setup -> 1. IPv4 Setup* (or press the settings button and press 4-1-1 on the dial pad)
 
-Select 6. Enable **Alternate TFTP** and set it to **Yes**
+Select 6. **Alternate TFTP** and set it to **Yes**
 
 Select 7. **TFTP Server 1** and set it to the **IP of your desktop machine running the TFTP software**. 
 
