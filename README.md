@@ -52,3 +52,15 @@ As we don't have these, the phone moves on to the file we created. As soon as it
 
 Note that you can supply settings in this file as well, so if your PBX is up and running the phone will connect to it as soon as it's done rebooting. 
 
+# 6. Additional Settings
+
+There are quite a lot of settings that can be configured in the SEPXXXXXXXXXXXX.cnf.xml file. This is in no way complete, but as a quick reference what these settings do as I figure it out.
+
+## 6.1. Parameter List
+
+Here's a good reference for what all the configuration parameters do: http://usecallmanager.nz/sepmac-cnf-xml.html
+
+# 7. Additional Resources
+
+msergiy87 here on Github has an excellent intro into how to do similar things on the CP-6921 https://github.com/msergiy87/phone_cisco_6921
+
