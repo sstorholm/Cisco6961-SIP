@@ -32,5 +32,8 @@ Select 7. TFTP Server 1 and set it to the IP of your desktop machine running the
 # 5. Wait
 
 Now we just need to wait, the phone will start pulling in the files from the TFTP server as soon as we configure the Alternate TFTP server as long as it isn't registered with a PBX.
-If you follow along in the logs of the TFTP software, you'll see that the phone tries to pull first a file called CTLSEPXXXXXXXXXXXX.tlv and then a file called ITLSEPXXXXXXXXXXXX.tlv. As we don't have these, the phone moves on to the file we created. As soon as it pulls that file, it'll parse the contents of that file and start downloading the new firmware and applying it. Note that you can supply settings in this file as well, so if your PBX is up and running the phone will connect to it as soon as it's done rebooting. 
+
+If you follow along in the logs of the TFTP software, you'll see that the phone tries to pull first a file called CTLSEPXXXXXXXXXXXX.tlv and then a file called ITLSEPXXXXXXXXXXXX.tlv. 
+As we don't have these, the phone moves on to the file we created. As soon as it pulls that file, it'll parse the contents of that file and start downloading the new firmware and applying it. 
+Note that you can supply settings in this file as well, so if your PBX is up and running the phone will connect to it as soon as it's done rebooting. 
 
