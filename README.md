@@ -1,5 +1,5 @@
 # Cisco6961-SIP
-# How to flash a Cisco 6961 with SIP
+# How to flash a Cisco 6961 with SIP Firmware
 
 Flashing a Cisco CP-6961 phone (or 6941/6921 for that matter) with SIP firmware is easy, but it requires some preparatory work.
 
