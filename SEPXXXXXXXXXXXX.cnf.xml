@@ -4,7 +4,7 @@
   <sshPassword>Password</sshPassword>
   <devicePool>
     <dateTimeSetting>
-      <dateTemplate>D.M.Y</dateTemplate>
+      <dateTemplate>D.M.YY</dateTemplate>
       <timeZone>E. Europe Standard/Daylight Time</timeZone>
       <ntps>
         <ntp>
